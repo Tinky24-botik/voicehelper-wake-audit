@@ -1,0 +1,70 @@
+﻿# Key experimental results
+
+## Custom DNN
+
+Earlier model:
+Accuracy 0.9135
+Recall 0.8270
+FP/hour 3.8938
+
+After adding duplicated real recordings:
+Accuracy 0.9395
+Recall 0.8800
+FP/hour 2.4779
+
+Strong augmentation:
+Accuracy 0.9100
+Recall 0.8210
+FP/hour 10.354
+
+Later training:
+Accuracy 0.9680479168891907
+Recall 0.9641076922416687
+FP/hour 16968.052734375
+
+The final model is NOT deployed.
+
+## Personal Logistic Regression strict group holdout
+
+Threshold 0.90:
+Accuracy 1.0
+Precision 1.0
+Recall 1.0
+Positive hit 100%
+Negative FP 0%
+
+ROC-AUC = 1.0
+
+Realtime microphone:
+scores around 0.97вЂ“0.999 could appear during silence.
+
+Conclusion:
+384-D mean/std/min/max aggregation is not considered a valid realtime wake-word method.
+
+## DTW
+
+Independent positive:
+min 2.405370
+median 2.832143
+mean 2.749040
+max 2.900862
+
+Real negative:
+min 2.979042
+median 3.276672
+mean 3.226680
+max 3.351743
+
+Old false positives:
+min 2.920790
+median 3.137421
+mean 3.142744
+max 3.415939
+
+Threshold 2.900862:
+7/7 positive
+0/30 negative
+
+Threshold 2.920790:
+7/7 positive
+1/30 negative

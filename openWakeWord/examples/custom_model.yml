@@ -1,0 +1,45 @@
+model_name: "lenya"
+
+target_phrase:
+  - "лёня"
+
+custom_negative_phrases: []
+
+n_samples: 5000
+n_samples_val: 1000
+
+tts_batch_size: 50
+augmentation_batch_size: 16
+
+piper_sample_generator_path: "D:/VoiceHelper/piper-sample-generator"
+
+output_dir: "D:/VoiceHelper/wakeword_training/lenya"
+
+rir_paths:
+  - "D:/VoiceHelper/wakeword_training/mit_rirs"
+
+background_paths:
+  - "D:/VoiceHelper/wakeword_training/background_clips"
+
+background_paths_duplication_rate:
+  - 1
+
+false_positive_validation_data_path: "D:/VoiceHelper/wakeword_training/validation_set_features.npy"
+
+augmentation_rounds: 1
+
+feature_data_files:
+  "ACAV100M_sample": "D:/VoiceHelper/wakeword_training/openwakeword_features_ACAV100M_2000_hrs_16bit.npy"
+
+batch_n_per_class:
+  "ACAV100M_sample": 1024
+  "adversarial_negative": 50
+  "positive": 50
+
+model_type: "dnn"
+layer_size: 32
+
+steps: 10000
+
+max_negative_weight: 1500
+target_false_positives_per_hour: 0.2

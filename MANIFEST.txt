@@ -1,0 +1,62 @@
+﻿VoiceHelper Claude Audit Package
+Generated: 2026-09-15 17:50:11
+Source: D:\VoiceHelper
+Destination: D:\VoiceHelper\claude_audit
+
+Files copied:
+audit_wake_dataset.py	4,9 KB
+core\engine.py	3,3 KB
+core\stt.py	12,4 KB
+core\wake_dtw.py	7,6 KB
+core\wakeword.py	6,4 KB
+EXCLUDED_FILES.md	0,7 KB
+false_positive_report.txt	60,5 KB
+false_positive_samples\01_score_0.969140_9785953000000.wav	68,3 KB
+false_positive_samples\02_score_0.968464_9790375000000.wav	68,3 KB
+false_positive_samples\03_score_0.968226_9699625000000.wav	115,1 KB
+false_positive_samples\04_score_0.968177_9740562000000.wav	110,7 KB
+false_positive_samples\05_score_0.967739_9628468000000.wav	110,7 KB
+false_positive_samples\06_score_0.967494_9626312000000.wav	108,5 KB
+false_positive_samples\07_score_0.967430_9723625000000.wav	67,2 KB
+false_positive_samples\08_score_0.967376_9820218000000.wav	65 KB
+false_positive_samples\09_score_0.967348_9710781000000.wav	112,9 KB
+false_positive_samples\10_score_0.967346_9725859000000.wav	64,6 KB
+inspect_false_positives.py	11,2 KB
+MANIFEST.txt	0,1 KB
+negative_check\9598843000000.wav	71,5 KB
+negative_check\9599078000000.wav	90,4 KB
+negative_check\9599328000000.wav	71,2 KB
+negative_check\9599515000000.wav	58,1 KB
+negative_check\9599703000000.wav	65 KB
+openWakeWord\examples\custom_model.yml	0,9 KB
+openWakeWord\openwakeword\data.py	46,7 KB
+openWakeWord\openwakeword\model.py	26,4 KB
+openWakeWord\openwakeword\train.py	50,1 KB
+openWakeWord\openwakeword\utils.py	33,3 KB
+PROJECT_STATE.md	6,6 KB
+README.md	0,7 KB
+results\KEY_RESULTS.txt	1,1 KB
+scripts\generate_russian_clips.py	2,4 KB
+structure.txt	8266,7 KB
+test_wake_ab.py	7,3 KB
+tools\wake_dtw_test\test_dtw.py	12,6 KB
+tools\wake_dtw_test\test_dtw_augmented.py	16,5 KB
+wake_profile\negative\speech_01.wav	156,3 KB
+wake_profile\negative\speech_02.wav	156,3 KB
+wake_profile\negative\speech_03.wav	156,3 KB
+wake_profile\positive\lenya_01.wav	62,5 KB
+wake_profile\positive\lenya_02.wav	62,5 KB
+wake_profile\positive\lenya_03.wav	62,5 KB
+wake_samples\lenya_01.wav	62,5 KB
+wake_samples\lenya_02.wav	62,5 KB
+wake_samples\lenya_03.wav	62,5 KB
+wake_samples\lenya_04.wav	62,5 KB
+wake_samples\lenya_05.wav	62,5 KB
+wake_samples\lenya_06.wav	62,5 KB
+wake_samples\lenya_07.wav	62,5 KB
+wake_samples\lenya_08.wav	62,5 KB
+wake_samples\lenya_09.wav	62,5 KB
+wake_samples\lenya_10.wav	62,5 KB
+wake_samples_validation\lenya_01.wav	62,5 KB
+wake_samples_validation\lenya_02.wav	62,5 KB
+wake_samples_validation\lenya_03.wav	62,5 KB
